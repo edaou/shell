@@ -1,6 +1,9 @@
 #ifndef SHELL_H
 #define SHELL_H
 
-void run_shell();
+#include "list.h"
+
+void execseq(list*);
+
 
 #endif /* SHELL_H */
